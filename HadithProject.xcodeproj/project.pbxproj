@@ -14,6 +14,19 @@
 		C0D827182B8604A2002811F9 /* HadithProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D827172B8604A2002811F9 /* HadithProjectTests.swift */; };
 		C0D827222B8604A2002811F9 /* HadithProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D827212B8604A2002811F9 /* HadithProjectUITests.swift */; };
 		C0D827242B8604A2002811F9 /* HadithProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D827232B8604A2002811F9 /* HadithProjectUITestsLaunchTests.swift */; };
+		C0D827352B8609E7002811F9 /* HadithBookCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D827342B8609E7002811F9 /* HadithBookCard.swift */; };
+		C0D827382B860CD1002811F9 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D827372B860CD1002811F9 /* AppColors.swift */; };
+		C0D8273A2B860FD1002811F9 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D827392B860FD1002811F9 /* Modifiers.swift */; };
+		C0D8273C2B861112002811F9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D8273B2B861112002811F9 /* Extensions.swift */; };
+		C0D8273F2B861611002811F9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D8273E2B861611002811F9 /* HomeView.swift */; };
+		C0D827422B8616F5002811F9 /* HadithBookDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D827412B8616F5002811F9 /* HadithBookDetail.swift */; };
+		C0D827442B861CE0002811F9 /* HadithTopicTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D827432B861CE0002811F9 /* HadithTopicTile.swift */; };
+		C0D827462B862D8B002811F9 /* HadithTopicsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D827452B862D8B002811F9 /* HadithTopicsViews.swift */; };
+		C0D827482B863A0E002811F9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D827472B863A0E002811F9 /* MainView.swift */; };
+		C0D8274B2B865B0A002811F9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D8274A2B865B0A002811F9 /* Repository.swift */; };
+		C0D8274D2B8664A8002811F9 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D8274C2B8664A8002811F9 /* File.swift */; };
+		C0F3692E2BF7622F00811195 /* hadithViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F3692D2BF7622F00811195 /* hadithViewModel.swift */; };
+		C0F369302BF7943200811195 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F3692F2BF7943100811195 /* Topic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,19 @@
 		C0D8271D2B8604A2002811F9 /* HadithProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HadithProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D827212B8604A2002811F9 /* HadithProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithProjectUITests.swift; sourceTree = "<group>"; };
 		C0D827232B8604A2002811F9 /* HadithProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0D827342B8609E7002811F9 /* HadithBookCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithBookCard.swift; sourceTree = "<group>"; };
+		C0D827372B860CD1002811F9 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		C0D827392B860FD1002811F9 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		C0D8273B2B861112002811F9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C0D8273E2B861611002811F9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C0D827412B8616F5002811F9 /* HadithBookDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithBookDetail.swift; sourceTree = "<group>"; };
+		C0D827432B861CE0002811F9 /* HadithTopicTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithTopicTile.swift; sourceTree = "<group>"; };
+		C0D827452B862D8B002811F9 /* HadithTopicsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithTopicsViews.swift; sourceTree = "<group>"; };
+		C0D827472B863A0E002811F9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C0D8274A2B865B0A002811F9 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		C0D8274C2B8664A8002811F9 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		C0F3692D2BF7622F00811195 /* hadithViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hadithViewModel.swift; sourceTree = "<group>"; };
+		C0F3692F2BF7943100811195 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +120,14 @@
 		C0D827052B8604A0002811F9 /* HadithProject */ = {
 			isa = PBXGroup;
 			children = (
+				C0F3692C2BF761CC00811195 /* ViewModels */,
 				C0D827062B8604A0002811F9 /* HadithProjectApp.swift */,
 				C0D827082B8604A0002811F9 /* ContentView.swift */,
+				C0D827492B865AC4002811F9 /* Repository */,
+				C0D827402B8616DC002811F9 /* Models */,
+				C0D8273D2B861601002811F9 /* Views */,
+				C0D827362B860CBB002811F9 /* Utilities */,
+				C0D827332B8609D1002811F9 /* Components */,
 				C0D8270A2B8604A2002811F9 /* Assets.xcassets */,
 				C0D8270C2B8604A2002811F9 /* Preview Content */,
 			);
@@ -125,6 +157,61 @@
 				C0D827232B8604A2002811F9 /* HadithProjectUITestsLaunchTests.swift */,
 			);
 			path = HadithProjectUITests;
+			sourceTree = "<group>";
+		};
+		C0D827332B8609D1002811F9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C0D827342B8609E7002811F9 /* HadithBookCard.swift */,
+				C0D827432B861CE0002811F9 /* HadithTopicTile.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C0D827362B860CBB002811F9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C0D827372B860CD1002811F9 /* AppColors.swift */,
+				C0D827392B860FD1002811F9 /* Modifiers.swift */,
+				C0D8273B2B861112002811F9 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C0D8273D2B861601002811F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0D8273E2B861611002811F9 /* HomeView.swift */,
+				C0D827472B863A0E002811F9 /* MainView.swift */,
+				C0D827452B862D8B002811F9 /* HadithTopicsViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0D827402B8616DC002811F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0D827412B8616F5002811F9 /* HadithBookDetail.swift */,
+				C0F3692F2BF7943100811195 /* Topic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C0D827492B865AC4002811F9 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				C0D8274A2B865B0A002811F9 /* Repository.swift */,
+				C0D8274C2B8664A8002811F9 /* File.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		C0F3692C2BF761CC00811195 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C0F3692D2BF7622F00811195 /* hadithViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +344,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D827462B862D8B002811F9 /* HadithTopicsViews.swift in Sources */,
+				C0F369302BF7943200811195 /* Topic.swift in Sources */,
+				C0D827352B8609E7002811F9 /* HadithBookCard.swift in Sources */,
+				C0D827422B8616F5002811F9 /* HadithBookDetail.swift in Sources */,
+				C0D8273F2B861611002811F9 /* HomeView.swift in Sources */,
+				C0D827442B861CE0002811F9 /* HadithTopicTile.swift in Sources */,
+				C0D8273C2B861112002811F9 /* Extensions.swift in Sources */,
+				C0F3692E2BF7622F00811195 /* hadithViewModel.swift in Sources */,
+				C0D827382B860CD1002811F9 /* AppColors.swift in Sources */,
+				C0D827482B863A0E002811F9 /* MainView.swift in Sources */,
 				C0D827092B8604A0002811F9 /* ContentView.swift in Sources */,
 				C0D827072B8604A0002811F9 /* HadithProjectApp.swift in Sources */,
+				C0D8274D2B8664A8002811F9 /* File.swift in Sources */,
+				C0D8273A2B860FD1002811F9 /* Modifiers.swift in Sources */,
+				C0D8274B2B865B0A002811F9 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
