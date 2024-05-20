@@ -8,44 +8,41 @@
 import Foundation
 
 class HadithViewModel: ObservableObject {
+    
     let repository = Repository()
-    @Published var bookDetails: [HadithBookDetail] = []
-    @Published var topics: [Topic] = []
-       @Published var isLoading = false
-       @Published var error: NetworkError?
+   // @Published var sections: [SectionDetails] = []
+    @Published var booksData : [HadithBookDetail] = []
+    @Published var isLoading = false
+    //@Published var topics: [Topic] = []
+       @Published var loadingInfo = ""
+       @Published var error: Error? = nil
 
-    func fetchBooks() {
+    func fetchBook(bookSlug: BookSlug) {
             isLoading = true
-            error = nil
-
-        repository.getBooks { result in
-                DispatchQueue.main.async {
+        print("starting")
+        loadingInfo = "Checking for \(bookSlug.rawValue)"
+        repository.fetchOrLoadBook(bookSlug: bookSlug){ [self] result in
+            loadingInfo = "fetching from database \(bookSlug.rawValue)"
+            DispatchQueue.main.async { [self] in
                     self.isLoading = false
                     switch result {
                     case .success(let response):
-                        self.bookDetails = response.books
+                        print("success full")
+                       // sections = Array(response.sectionDetails.values)
+                        booksData = booksData + [response]
+                       
                     case .failure(let error):
+                        print("failded \(error.localizedDescription)")
                         self.error = error
                     }
                 }
             }
         }
 
-    func fetchTopics() {
-            isLoading = true
-            error = nil
+    
+}
 
-        repository.getTopics { result in
-                DispatchQueue.main.async {
-                    print("results is \(result)")
-                    self.isLoading = false
-                    switch result {
-                    case .success(let response):
-                        self.topics = response.chapters
-                    case .failure(let error):
-                        self.error = error
-                    }
-                }
-            }
-        }
+enum BookSlug : String {
+    case ArabicBukhari = "ara-bukhari.json"
+    case EnglishBukhari = "eng-bukhari.json"
 }

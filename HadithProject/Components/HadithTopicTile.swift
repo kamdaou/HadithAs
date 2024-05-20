@@ -8,18 +8,18 @@
 import SwiftUI
 
 struct HadithTopicTile: View {
-    let topic: Topic
+    let section: String
     var body: some View {
         HStack{
             RoundedRectangle(cornerRadius: 8)
                 .frame(width: 40,height: 40)
                 .foregroundColor(AppColors.grey.opacity(0.6))
-                .overlay(Text("\(topic.id)"))
+                .overlay(Text("\(section)"))
                 .padding()
             VStack (alignment: .leading){
-                Text(topic.chapterEnglish)
+                Text(section)
                     .bold()
-                Text("Hadith No: \(topic.chapterArabic) ")
+                Text("Arabic: \("Arabic") ")
             }
             
         }.frame(width: UIScreen.main.bounds.width,  height: 70, alignment: .leading)
@@ -28,5 +28,5 @@ struct HadithTopicTile: View {
 }
 
 #Preview {
-    HadithTopicTile(topic: Topic(id: 1, chapterNumber: "1", chapterEnglish: "Revelation", chapterUrdu: "وحی کے بیان میں", chapterArabic: "كتاب بدء الوحى", bookSlug: "sahih-bukhari"))
+    HadithTopicTile(section: "hello")
 }
