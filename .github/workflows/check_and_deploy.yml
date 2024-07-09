@@ -24,7 +24,7 @@ jobs:
 
   deploy_to_testflight:
     runs-on: macos-latest
-    needs: [ build ]
+    needs: [ build_project ]
     steps:
       - uses: actions/checkout@v4
 
